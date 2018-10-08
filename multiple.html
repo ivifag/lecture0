@@ -6,10 +6,35 @@
       h1, h2{
         color: red;
       }
+      ol > li{
+        color: blue;
+      }
+      input[type=text]{
+        background-color: red;
+      }
+      input[type=password]{
+        background-color: blue;
+      }
     </style>
   </head>
   <body>
     <h1>Big headline</h1>
     <h2>Second header</h2>
+    <ol>
+      <li>Item 1</li>
+      <li>Item two</li>
+      <ul>
+        <li>sublist 1</li>
+        <li>sublist 2</li>
+      </ul>
+      <li>Item three</li>
+    </ol>
+    <ul>
+      <li>second list el 1</li>
+      <li>second list el 2</li>
+    </ul>
+    <input name="name" type="text" value="Type your user">
+    <input name="name" type="password" value="1234">
+    <input name="name" type="number" value="Type your age">
   </body>
 </html>
