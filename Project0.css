@@ -1,0 +1,17 @@
+.hide{
+        display:none;
+}
+@media (min-width: 500px){
+    .secret-message{
+      content: "Make me small please";
+      background-color: blue;
+
+    }
+}
+@media (max-width: 499px){
+    .secret-message{
+      content: "This is a secret message";
+      background-color: blue;
+
+    }
+}
