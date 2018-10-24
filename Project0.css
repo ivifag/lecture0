@@ -1,0 +1,14 @@
+#mainheader {
+  background-color: whitesmoke;
+  color: #007bff;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+#secondheader{
+  background-color: whitesmoke;
+  color: #007bff;
+  padding: 12px 14px;
+  text-align: center;
+  display: block;
+}
